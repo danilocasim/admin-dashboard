@@ -13,6 +13,7 @@
   --btn-border-clr: var(--sidebar-clr);
   --main-content-heading: var(--sidebar-clr);
   --card-bg: var(--sidebar-bg);
+  --card-border-clr: var(--sidebar-clr);
   --card-heading-clr: var(--sidebar-clr);
   --card-para-clr: var(--white);
 }
@@ -254,6 +255,8 @@ header {
 
 .card {
   background-color: var(--card-bg);
+  border-radius: 5px;
+  border-left: 5px solid var(--card-border-clr);
   height: 200px;
   padding: 1.5rem;
   display: grid;
@@ -299,6 +302,7 @@ header {
   gap: 2rem;
   background-color: var(--card-bg);
   padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
 
 .wrapper-trending {
@@ -307,6 +311,7 @@ header {
   place-items: center;
   background-color: var(--card-bg);
   padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
 
 .text-trending {

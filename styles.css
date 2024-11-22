@@ -124,6 +124,10 @@ body {
   gap: 1rem;
 }
 
+.sidebar li {
+  cursor: pointer;
+}
+
 .sidebar ul li:hover {
   position: relative;
   top: -4px;

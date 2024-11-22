@@ -124,8 +124,19 @@ body {
   gap: 1rem;
 }
 
+.sidebar ul li:hover {
+  position: relative;
+  top: -4px;
+}
+
 svg {
   fill: var(--icon-clr);
+  cursor: pointer;
+}
+
+svg:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .sidebar .dashboard > svg {
@@ -229,6 +240,13 @@ header {
   color: var(--btn-clr);
   font-weight: 700;
   cursor: pointer;
+}
+
+.upload button:hover {
+  background-color: var(--btn-clr);
+  color: var(--btn-bg);
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .main-content {

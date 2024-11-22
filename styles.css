@@ -284,6 +284,12 @@ header {
   display: grid;
   align-content: space-between;
   color: var(--card-para-clr);
+  cursor: pointer;
+}
+
+.card:hover {
+  position: relative;
+  top: -4px;
 }
 
 .fork {
@@ -325,6 +331,12 @@ header {
   background-color: var(--card-bg);
   padding: 0.5rem 1rem;
   border-radius: 8px;
+}
+
+.wrapper-announcement:hover,
+.wrapper-trending:hover {
+  position: relative;
+  top: -4px;
 }
 
 .wrapper-trending {
